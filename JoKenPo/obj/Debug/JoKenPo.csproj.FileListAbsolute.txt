@@ -1,0 +1,11 @@
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\bin\Debug\JoKenPo.exe.config
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\bin\Debug\JoKenPo.exe
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\bin\Debug\JoKenPo.pdb
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.AssemblyReference.cache
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.SuggestedBindingRedirects.cache
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.Form1.resources
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.Properties.Resources.resources
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.GenerateResource.cache
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.csproj.CoreCompileInputs.cache
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.exe
+C:\Users\otavi\Documents\CODES\c#\JoKenPo\JoKenPo\obj\Debug\JoKenPo.pdb
