@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.paperButton = new System.Windows.Forms.Button();
-            this.rockButton = new System.Windows.Forms.Button();
-            this.scissorButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.youLabel = new System.Windows.Forms.Label();
             this.pcLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,85 +38,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.scissorButton = new System.Windows.Forms.Button();
+            this.rockButton = new System.Windows.Forms.Button();
+            this.paperButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // paperButton
-            // 
-            this.paperButton.BackColor = System.Drawing.SystemColors.Control;
-            this.paperButton.BackgroundImage = global::JoKenPo.Properties.Resources.paperHand;
-            this.paperButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.paperButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.paperButton.Location = new System.Drawing.Point(40, 297);
-            this.paperButton.Name = "paperButton";
-            this.paperButton.Size = new System.Drawing.Size(109, 56);
-            this.paperButton.TabIndex = 0;
-            this.paperButton.Text = "Paper";
-            this.paperButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.paperButton.UseVisualStyleBackColor = false;
-            this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
-            // 
-            // rockButton
-            // 
-            this.rockButton.BackgroundImage = global::JoKenPo.Properties.Resources.rockHand;
-            this.rockButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.rockButton.Location = new System.Drawing.Point(154, 297);
-            this.rockButton.Name = "rockButton";
-            this.rockButton.Size = new System.Drawing.Size(109, 56);
-            this.rockButton.TabIndex = 1;
-            this.rockButton.Text = "Rock";
-            this.rockButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.rockButton.UseVisualStyleBackColor = true;
-            this.rockButton.Click += new System.EventHandler(this.rockButton_Click);
-            // 
-            // scissorButton
-            // 
-            this.scissorButton.BackgroundImage = global::JoKenPo.Properties.Resources.scissorHand;
-            this.scissorButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.scissorButton.Location = new System.Drawing.Point(268, 297);
-            this.scissorButton.Name = "scissorButton";
-            this.scissorButton.Size = new System.Drawing.Size(109, 56);
-            this.scissorButton.TabIndex = 2;
-            this.scissorButton.Text = "Scissor";
-            this.scissorButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.scissorButton.UseVisualStyleBackColor = true;
-            this.scissorButton.Click += new System.EventHandler(this.scissorButton_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(39, 98);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(164, 144);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(314, 98);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(164, 144);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Location = new System.Drawing.Point(589, 98);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(164, 144);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
             // 
             // youLabel
             // 
@@ -231,6 +157,77 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Você";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Location = new System.Drawing.Point(589, 98);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(164, 144);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Location = new System.Drawing.Point(314, 98);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(164, 144);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(39, 98);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(164, 144);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // scissorButton
+            // 
+            this.scissorButton.BackgroundImage = global::JoKenPo.Properties.Resources.scissorHand;
+            this.scissorButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.scissorButton.Location = new System.Drawing.Point(268, 297);
+            this.scissorButton.Name = "scissorButton";
+            this.scissorButton.Size = new System.Drawing.Size(109, 56);
+            this.scissorButton.TabIndex = 2;
+            this.scissorButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.scissorButton.UseVisualStyleBackColor = true;
+            this.scissorButton.Click += new System.EventHandler(this.scissorButton_Click);
+            // 
+            // rockButton
+            // 
+            this.rockButton.BackgroundImage = global::JoKenPo.Properties.Resources.rockHand;
+            this.rockButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rockButton.Location = new System.Drawing.Point(154, 297);
+            this.rockButton.Name = "rockButton";
+            this.rockButton.Size = new System.Drawing.Size(109, 56);
+            this.rockButton.TabIndex = 1;
+            this.rockButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rockButton.UseVisualStyleBackColor = true;
+            this.rockButton.Click += new System.EventHandler(this.rockButton_Click);
+            // 
+            // paperButton
+            // 
+            this.paperButton.BackColor = System.Drawing.SystemColors.Control;
+            this.paperButton.BackgroundImage = global::JoKenPo.Properties.Resources.paperHand;
+            this.paperButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.paperButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.paperButton.Location = new System.Drawing.Point(40, 297);
+            this.paperButton.Name = "paperButton";
+            this.paperButton.Size = new System.Drawing.Size(109, 56);
+            this.paperButton.TabIndex = 0;
+            this.paperButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.paperButton.UseVisualStyleBackColor = false;
+            this.paperButton.Click += new System.EventHandler(this.paperButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,11 +246,11 @@
             this.Controls.Add(this.paperButton);
             this.Name = "Form1";
             this.Text = "JoKenPo";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
